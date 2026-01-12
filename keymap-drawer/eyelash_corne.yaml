@@ -6,7 +6,7 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: T, h: \}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Y
   - U
@@ -38,7 +38,7 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
-  - M
+  - {t: M, h: ']'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
