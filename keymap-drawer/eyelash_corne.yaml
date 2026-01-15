@@ -52,9 +52,9 @@ layers:
   NUMBER:
   - {t: '`', s: '~'}
   - +
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -80,9 +80,9 @@ layers:
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - (
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -101,9 +101,9 @@ layers:
   SYMBOL:
   - '~'
   - +
-  - '!'
-  - '@'
-  - '#'
+  - '&'
+  - '*'
+  - (
   - {t: '[', s: '{'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: ']', s: '}'}
@@ -129,9 +129,9 @@ layers:
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
-  - '&'
-  - '*'
-  - (
+  - '!'
+  - '@'
+  - '#'
   - (
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -199,10 +199,10 @@ layers:
   Fn:
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
-  - F1
-  - F2
-  - F3
-  - F10
+  - F7
+  - F8
+  - F9
+  - F12
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -227,10 +227,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
-  - F7
-  - F8
-  - F9
-  - F12
+  - F1
+  - F2
+  - F3
+  - F10
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
