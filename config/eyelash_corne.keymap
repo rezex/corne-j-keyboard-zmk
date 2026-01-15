@@ -120,9 +120,9 @@
         layer_num {
             display-name = "NUMBER";
             bindings = <
-&kp GRAVE  &kp PLUS   &kp N1  &kp N2  &kp N3  &kp N0                                              &mmv MOVE_UP                     &trans                 &trans           &kp PLUS           &kp MINUS      &kp EQUAL          &kp BACKSLASH
+&kp GRAVE  &kp PLUS   &kp N7  &kp N8  &kp N9  &kp N0                                              &mmv MOVE_UP                     &trans                 &trans           &kp PLUS           &kp MINUS      &kp EQUAL          &kp BACKSLASH
 &kp SEMI   &kp MINUS  &kp N4  &kp N5  &kp N6  &kp LEFT_BRACKET                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp SINGLE_QUOTE
-&trans     &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp LEFT_PARENTHESIS  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp RIGHT_PARENTHESIS  &trans           &kp COMMA          &kp DOT        &kp SLASH          &trans
+&trans     &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp LEFT_PARENTHESIS  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp RIGHT_PARENTHESIS  &trans           &kp COMMA          &kp DOT        &kp SLASH          &trans
                               &trans  &trans  &trans                                                                               &trans                 &trans           &trans
             >;
 
@@ -132,10 +132,10 @@
         layer_sym {
             display-name = "SYMBOL";
             bindings = <
-&kp TILDE  &kp PLUS   &kp EXCL    &kp AT        &kp HASH   &kp LEFT_BRACKET                                &mmv MOVE_UP                     &kp RIGHT_BRACKET      &trans  &trans         &kp UNDER         &kp PLUS      &kp PIPE
-&kp COLON  &kp UNDER  &kp DOLLAR  &kp PERCENT   &kp CARET  &kp LEFT_BRACE                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_BRACE        &trans  &trans         &trans            &trans        &kp DOUBLE_QUOTES
-&trans     &kp EQUAL  &kp AMPS    &kp ASTERISK  &kp LPAR   &kp LEFT_PARENTHESIS  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_PARENTHESIS  &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
-                                  &trans        &trans     &trans                                                                           &trans                 &trans  &trans
+&kp TILDE  &kp PLUS   &kp AMPS    &kp ASTRK    &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET                                &mmv MOVE_UP                     &kp RIGHT_BRACKET      &trans  &trans         &kp UNDER         &kp PLUS      &kp PIPE
+&kp COLON  &kp UNDER  &kp DOLLAR  &kp PERCENT  &kp CARET             &kp LEFT_BRACE                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_BRACE        &trans  &trans         &trans            &trans        &kp DOUBLE_QUOTES
+&trans     &kp EQUAL  &kp EXCL    &kp AT       &kp HASH              &kp LEFT_PARENTHESIS  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_PARENTHESIS  &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
+                                  &trans       &trans                &trans                                                                           &trans                 &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -155,9 +155,9 @@
         layer_fn {
             display-name = "Fn";
             bindings = <
-&trans  &kp PRINTSCREEN  &kp F1  &kp F2  &kp F3  &kp F10                                &mmv MOVE_UP                     &trans  &trans           &trans             &trans         &trans     &trans
+&trans  &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F12                                &mmv MOVE_UP                     &trans  &trans           &trans             &trans         &trans     &trans
 &trans  &kp SCROLLLOCK   &kp F4  &kp F5  &kp F6  &kp F11                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RCTRL  &trans
-&trans  &kp PAUSE_BREAK  &kp F7  &kp F8  &kp F9  &kp F12  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans           &trans             &trans         &trans     &trans
+&trans  &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans           &trans             &trans         &trans     &trans
                                  &trans  &trans  &trans                                                                  &trans  &trans           &trans
             >;
 
